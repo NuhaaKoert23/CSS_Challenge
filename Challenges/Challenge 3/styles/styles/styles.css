@@ -1,0 +1,62 @@
+nav a{
+    color: beige;
+    text-decoration: none;
+    padding: 7px 25px;
+    display: inline-block;
+}
+
+
+html {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+
+article {
+    width: 250mm;
+    height: 300mm;
+    margin: auto;
+    position: relative;
+}
+
+address {
+    position: absolute;
+    bottom: 30mm;
+    right: 15mm;
+}
+
+header {
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTlLYWLCnp1KSTp9DA0cRNtJBo5GdMbTXb2-Tc9kHAd-ShG9kjvYQ") no repeat ;
+    height: 500px
+}
+
+
+h1 {
+    position: absolute;
+    top: 1mm;
+    left: 20mm;
+    width: 200px;
+    height: 200px ;
+    letter-spacing: 1px;
+    text-align: center;
+    color: white;
+    text-shadow: 1px 1px 1px black;
+}
+
+article {
+    background: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRQPWOXM9TmXRtNzgObhKaV9c2xQumLP9UoNwLlQpfTiL5U17zOKg") no repeat left top;
+    background: linear-gradient(to top, grey, black)
+                url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTlLYWLCnp1KSTp9DA0cRNtJBo5GdMbTXb2-Tc9kHAd-ShG9kjvYQ") 
+                url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTYM14E4eTlCVAsccvypdB6beJURlleF_Jp9GdCPpbc0S2BStwU") ; 
+    background-color: white;
+    border-top: blue 1mm solid;
+    border-bottom: blue 1mm solid;
+    background-blend-mode: hard-light;
+}
+
+h1 {
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRQPWOXM9TmXRtNzgObhKaV9c2xQumLP9UoNwLlQpfTiL5U17zOKg") ;
+    /* filter: drop-shadow(3px 3px 3px black) ; */
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px black;
+
+}

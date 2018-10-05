@@ -1,0 +1,44 @@
+body {
+    background-color: rgb(93, 207, 93);
+}
+
+header {
+    text-align: center;
+    font: 1em times;
+}
+
+div {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(122, 212, 122);
+    /* overflow:  */
+}
+
+li a {
+    display: block;
+    color: whitesmoke;
+    padding: 14 px 16px;
+    text-decoration: none;
+}
+
+#img_two {
+    float: right;
+    margin-left: 0%;
+}
+
+#img_three {
+    float: left;
+    margin: 5%;
+    width: 40%;
+}
+
+aside {
+    text-align: right;
+    list-style: none;
+    float: right;
+}
+
+#div_two{
+        clear: both;
+}
